@@ -33,7 +33,7 @@ public class User {
     private String email;
 
     @NotBlank(message = "phone number must be required")
-    @Size(min=10,max = 10,message= "size must be 10")
+    @Size(min=12,max = 12,message= "size must be 10")
     private String phone_number;
 
 
